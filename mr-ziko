@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مستر زيكو | مدرس التاريخ</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
+body{background:#f7f0dd;color:#2b2110}
+header{background:#1a120b;color:#fff;padding:15px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+header b{font-size:24px;color:#e8b44a}
+header b span{color:#fff}
+nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:700}
+nav a:hover{color:#e8b44a}
+.hero{background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('https://images.unsplash.com/photo-1461360228754-6e81c478b882?w=1200');background-size:cover;background-position:center;color:#fff;text-align:center;padding:90px 20px}
+.hero h1{font-size:45px;line-height:1.2}
+.hero h1 span{color:#e8b44a}
+.hero p{margin:15px 0 25px;font-size:18px;opacity:.9}
+.btn{background:#e8b44a;color:#000;padding:13px 30px;border-radius:30px;text-decoration:none;font-weight:900;display:inline-block}
+.btn2{background:transparent;color:#fff;border:2px solid #fff;padding:11px 28px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block;margin-right:10px}
+.section{padding:50px 5%}
+.section h2{text-align:center;font-size:32px;margin-bottom:30px}
+.section h2:after{content:'';display:block;width:80px;height:4px;background:#e8b44a;margin:10px auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#fff;padding:25px;border-radius:20px;box-shadow:0 5px 20px rgba(0,0,0,.08);text-align:center}
+.card .icon{font-size:40px}
+.card h3{margin:12px 0 8px}
+.card p{color:#666;font-size:15px}
+.card a{color:#b47a00;font-weight:800;text-decoration:none;display:inline-block;margin-top:12px}
+.about{display:flex;gap:30px;align-items:center;background:#fff;border-radius:25px;padding:30px;flex-wrap:wrap}
+.about img{width:220px;height:220px;object-fit:cover;border-radius:50%;border:6px solid #e8b44a}
+.about div{flex:1;min-width:280px}
+.about h3{font-size:28px}
+.about p{margin:10px 0;color:#555;line-height:1.8}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;text-align:center;margin-top:20px}
+.stats b{font-size:30px;color:#b47a00;display:block}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.video{background:#000;color:#fff;border-radius:18px;overflow:hidden}
+.video img{width:100%;height:180px;object-fit:cover}
+.video div{padding:15px}
+.video a{color:#e8b44a;text-decoration:none;font-weight:800}
+.contact{background:#1a120b;color:#fff;text-align:center;border-radius:25px;padding:40px 20px}
+.contact h2{color:#e8b44a}
+.social{margin-top:20px}
+.social a{background:#e8b44a;color:#000;padding:10px 20px;border-radius:20px;text-decoration:none;font-weight:800;display:inline-block;margin:5px}
+footer{text-align:center;padding:20px;color:#777;font-size:14px}
+@media(max-width:600px){.hero h1{font-size:30px} nav{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <b>مستر <span>زيكو</span> ⚔️</b>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">عني</a>
+    <a href="#lessons">الدروس</a>
+    <a href="#videos">فيديوهات</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>التاريخ مش حفظ<br><span>التاريخ حكاية بنعيشها مع زيكو</span></h1>
+  <p>مع مستر زيكو هتفهم التاريخ وتحبه وتقفله بسهولة</p>
+  <a class="btn" href="#lessons">ابدأ المذاكرة دلوقتي</a>
+  <a class="btn2" href="#videos">شاهد فيديوهاتي</a>
+</section>
+
+<section class="section" id="lessons">
+  <h2>📚 دروسك كلها هنا</h2>
+  <div class="cards">
+    <div class="card"><div class="icon">🏛️</div><h3>تاريخ 3 إعدادي</h3><p>فتح الشام والعراق ومصر - الدولة الأموية والعباسية</p><a href="#">ادخل للدرس ←</a></div>
+    <div class="card"><div class="icon">⚔️</div><h3>تاريخ 1 ثانوي</h3><p>الحضارة المصرية - بلاد العراق - اليونان والرومان</p><a href="#">ادخل للدرس ←</a></div>
+    <div class="card"><div class="icon">👑</div><h3>تاريخ 2 ثانوي</h3><p>الدولة العثمانية - الحملة الفرنسية - محمد علي</p><a href="#">ادخل للدرس ←</a></div>
+    <div class="card"><div class="icon">🇪🇬</div><h3>تاريخ 3 ثانوي</h3><p>ثورة 1919 - ثورة 1952 - حرب أكتوبر</p><a href="#">ادخل للدرس ←</a></div>
+    <div class="card"><div class="icon">📝</div><h3>مراجعات وامتحانات</h3><p>مراجعة ليلة الامتحان + أسئلة متوقعة بالإجابة</p><a href="#">ادخل للمراجعة ←</a></div>
+    <div class="card"><div class="icon">📖</div><h3>ملازم PDF</h3><p>حمل كل الملازم مجاناً من هنا</p><a href="#">حمل كل الملازم ←</a></div>
+  </div>
+</section>
+
+<section
